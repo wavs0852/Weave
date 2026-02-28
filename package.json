@@ -1,0 +1,20 @@
+{
+  "name": "debug",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-static-copy": "^3.2.0"
+  },
+  "dependencies": {
+    "@ricky0123/vad-web": "^0.0.29",
+    "denque": "^2.1.0"
+  }
+}
